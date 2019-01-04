@@ -16,7 +16,7 @@ class AddSpectacle extends Component {
     handleSubmit = (event) => {
         event.preventDefault();
 
-        firebase.database().ref('theatres').push(this.state);
+        firebase.database().ref('spectacle').push(this.state);
         console.log(this.state)
         // if (!this.state.day && !this.state.title && !this.state.about && !this.state.address  ){
         //     this.setState({
