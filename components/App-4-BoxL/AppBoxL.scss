@@ -1,0 +1,49 @@
+.opinion2{
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.opinion2-yellow{
+  background: #ffd109;
+  height: 350px;
+  width: 550px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 100px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 100px;
+  color: #2c2c2c;
+  & h4{
+    font-size: 13px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #373737;
+
+  }
+  & h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  & h3{
+    font-size: 16px;
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+  }
+}
+
+.opinion2-poster{
+  position: absolute;
+  left: 470px;
+  top:30px;
+  height: 290px;
+  width: 203px;
+  z-index: 1;
+  & img{
+    height: 100%;
+    width: 100%;
+  }
+}

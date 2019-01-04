@@ -1,0 +1,89 @@
+.page-header {
+  height: 100px;
+  position: relative;
+  z-index: 100000;
+}
+.page-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+
+.page-logo {
+  margin:0;
+  display: flex;
+  align-items: center;
+}
+
+.page-nav {
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-right: 10px;
+}
+.page-nav button {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  padding: 0 20px;
+  line-height: 40px;
+  display: block;
+  font-family: 'Pacifico', cursive;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.page-nav-create{
+  background: #ffd109;
+  border: none;
+  border-radius: 15px;
+}
+
+.page-nav-log{
+  border: none;
+  background: transparent;
+}
+
+.page-nav-field{
+  display: flex;
+  padding-left: 8px;
+  border-radius: 15px;
+  border: 1px solid lightgrey;
+  & input{
+    font-family: 'Pacifico', cursive;
+    font-size: 12px;
+    color: black;
+    line-height: 40px;
+    border: none;
+    width: 200px;
+  }
+  & a{
+    text-decoration: none;
+  }
+  & button{
+    border: none;
+    background: transparent;
+    color: #ffd109;
+    text-decoration: none;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+  & button i{
+    color: #ffd109;
+  }
+  & button:hover{
+    cursor: pointer;
+    text-decoration: none;
+
+  }
+}
+
+link{
+  text-decoration: none;
+}
