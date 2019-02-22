@@ -1,0 +1,65 @@
+.banner {
+  height:450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/slider.jpg");
+  background-size: cover;
+}
+
+#carouselExampleIndicators{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item, .active, .one{
+  width: 950px;
+  height: 350px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+.one{
+  background: rgba(white, 0.8);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.carousel-item-logo{
+  height: 100%;
+  width: 35%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px 0 0 20px;
+  cursor: pointer;
+
+  & img {
+  }
+}
+
+.carousel-item-inner{
+  height: 100%;
+  width: 65%;
+  padding: 20px;
+  & h2{
+   font-style:italic ;
+    margin-bottom: 10px;
+    font-size: 50px;
+  }
+  & .carousel-item-inner-info{
+    width: 100%;
+    height: 150px;
+  }
+}
+
+.carousel-control-prev, .carousel-control-next{
+  width: 60px;
+}

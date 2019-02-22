@@ -1,0 +1,15 @@
+.theatre-banner{
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  & img:last-of-type{
+    width: 70%;
+    height: 100%;
+  }
+  & img:first-of-type{
+
+  }
+
+
+}
